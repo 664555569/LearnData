@@ -5,6 +5,7 @@ import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 import theme from "./theme.js";
 
 export default defineUserConfig({
+    base: "/LearnData/",
   // 网站路径默认为主域名。如果网站部署在子路径下，比如 xxx.com/yyy，那么 base 应该被设置为 "/yyy/"
   base: "/",
 
